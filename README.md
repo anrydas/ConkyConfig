@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/App-Conky-purple) ![](https://img.shields.io/badge/For-Linux-green) ![](https://img.shields.io/badge/File-Config-blue)
 
-[Official Conky GitHub Repository](https://github.com/brndnmtthws/conky/)
+[Official Conky GitHub Repository](https://github.com/brndnmtthws/conky/) | [Official Docs: Variables](https://conky.cc/variables) | [Official Docs: Configuration settings](https://conky.cc/config_settings)
 ## Conky Configuration by -=:dAs:=
 ### 📃 Features
 - color-separate blocks view
