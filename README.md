@@ -21,6 +21,7 @@ Just copy file into `~/.conf/conky/` directory or run conky with command `conky 
 - correct Temperature section to your system config; **it may need you to add** `drivetemp` module into `/etc/modules-load.d/drivetemp.conf` with `echo drivetemp | sudo tee /etc/modules-load.d/drivetemp.conf`
 - correct Storage section with your system drive names (like /dev/sda or /dev/nvme0n1); change names of removable drives
 - change names of Network interfaces
+- you may need to change update interval, set by default to 3 sec; it stored in `update_interval` variable
 
 📕 💬 See [Compile Conky from sources](files/compile.md) if you want to take last version with features you need.
 
