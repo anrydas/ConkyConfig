@@ -40,11 +40,15 @@ set(IWLIB_H "/usr/include/iwlib.h")
 cmake ../
 ```
 (to apply changes). It may need to add something like this to cmake if it couldn't find freetype library:
-`cmake -DFREETYPE_INCLUDE_DIR_freetype2=/usr/include/freetype2 ../`
-8. Make application with command
-`make`
-9. ❗ Test it!
+```shell
+cmake -DFREETYPE_INCLUDE_DIR_freetype2=/usr/include/freetype2 ../
 ```
+8. Make application with command 
+```shell
+make
+```
+9. ❗ Test it!
+```shell
 conky -c <path_to_config_file>
 ```
 10. Install application into system
