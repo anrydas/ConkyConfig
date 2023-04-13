@@ -9,7 +9,7 @@
 - overall **CPU** usage and frequency and separate Cores usage
 - total **RAM** and **SWAP** usage
 - temperature of **CPU, GPU, HDD** with **gradient** graph - ❗ it works fine with **1.18.1_pre version**, old versions may not show gradient
-- storage usage, **I/O read/write**
+- storage usage, **I/O read/write**, upto 2 mounted disks shows
 - network statistics for **Wired** and/or **Wireless** with Down/Up info and current **Wi-Fi** info
 - overall **Top** processes and separate using **CPU/MEM/IO**
 ### 🖼 Screenshot
