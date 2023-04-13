@@ -5,6 +5,7 @@
 ### 📃 Features
 - color-separate blocks view
 - compact and brief view of main system parameters
+- battery colored status (**Ch** => Charging, **Dis** => Discharging, **Full**)
 - overall **CPU** usage and frequency and separate Cores usage
 - total **RAM** and **SWAP** usage
 - temperature of **CPU, GPU, HDD** with **gradient** graph - ❗ it works fine with **1.18.1_pre version**, old versions may not show gradient
@@ -17,6 +18,7 @@
 Just copy file into `~/.conf/conky/` directory or run conky with command `conky -d -c <path_to_conky.conf_file>`
 
 #### 👉 Make sure you made changes in conky.conf file according to you system configuration:
+- change buttery number (if necessary)
 - change CPU cores to you own
 - correct Temperature section to your system config; **it may need you to add** `drivetemp` module into `/etc/modules-load.d/drivetemp.conf` with `echo drivetemp | sudo tee /etc/modules-load.d/drivetemp.conf`
 - correct Storage section with your system drive names (like /dev/sda or /dev/nvme0n1); change names of removable drives
