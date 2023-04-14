@@ -11,7 +11,7 @@ else
   if [ $s == 'Charging' ]; then
     r='${color yellow}Ch'
   else
-    r='${color orange red}Dis'
+    r='${color orange1}Dis'
   fi
 fi
 c=`cat /sys/class/power_supply/BAT1/capacity`
