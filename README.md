@@ -15,7 +15,7 @@
 ### 🖼 Screenshot
 ![Screenshot](files/conky_screen.png)
 ### 🚀 Quick start
-Just copy file into `~/.conf/conky/` directory or run conky with command `conky -d -c <path_to_conky.conf_file>`
+Just copy `conky.conf` and `get_bat.sh` files into `~/.conf/conky/` directory or run conky with command `conky -d -c <path_to_conky.conf_file>` (in those case make sure you made changes into `concy.conf` for `get_bat.sh` location, use absolute path)
 
 #### 👉 Make sure you made changes in conky.conf file according to you system configuration:
 - change buttery number (if necessary)
