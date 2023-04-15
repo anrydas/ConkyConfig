@@ -24,6 +24,7 @@ Just copy `conky.conf` and `get_bat.sh` files into `~/.conf/conky/` directory or
 - correct Storage section with your system drive names (like /dev/sda or /dev/nvme0n1); change names of removable drives
 - change names of Network interfaces
 - you may need to change update interval, set by default to 3 sec; it stored in `update_interval` variable
+- for multiple monitors (aka [Xinerama](https://en.wikipedia.org/wiki/Xinerama) or [Multihead](https://wiki.archlinux.org/title/multihead)) change the `xinerama_head` parameter from 0 (default) to 1,2,3,...
 
 📕 💬 See [Compile Conky from sources](files/compile.md) if you want to take last version with features you need.
 
