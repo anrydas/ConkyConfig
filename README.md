@@ -12,8 +12,8 @@
 - storage usage, **I/O read/write**, upto 2 mounted disks shows
 - network statistics for **Wired** and/or **Wireless** with Down/Up info and current **Wi-Fi** info
 - overall **Top** processes and separate using **CPU/MEM/IO**
-### 🖼 Screenshot
-![Screenshot](files/conky_screen.png)
+### 🖼 Screenshots
+![Screenshot](files/conky_screen-02.png) ![Screenshot](files/conky_screen.png) ![Screenshot](files/conky_screen-03.png)
 ### 🚀 Quick start
 Just copy `conky.conf` and `get_bat.sh` files into `~/.conf/conky/` directory or run conky with command `conky -d -c <path_to_conky.conf_file>` (in those case make sure you made changes into `concy.conf` for `get_bat.sh` location, use absolute path)
 
