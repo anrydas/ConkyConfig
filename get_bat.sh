@@ -3,6 +3,7 @@
 # Parameters:
 # 1 - BAT number;
 bn=$1
+c=`cat /sys/class/power_supply/BAT${bn}/capacity`
 if [ -n $bn ]; then bn=1; fi;
 s=`cat /sys/class/power_supply/BAT${bn}/status`
 if [ $s == 'Full' ]; then
@@ -14,5 +15,4 @@ else
     r='${color orange1}Dis'
   fi
 fi
-c=`cat /sys/class/power_supply/BAT1/capacity`
 echo "${r} ${c}%"
