@@ -6,7 +6,7 @@ bn=$1
 if [ -n $bn ]; then bn=1; fi;
 s=`cat /sys/class/power_supply/BAT${bn}/status`
 if [ $s == 'Full' ]; then
-  r='${color lime green}Full'
+  r='${color medium spring green}Full'
 else
   if [ $s == 'Charging' ]; then
     r='${color yellow}Ch'
