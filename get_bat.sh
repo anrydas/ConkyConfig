@@ -8,11 +8,9 @@ if [ -n $bn ]; then bn=1; fi;
 s=`cat /sys/class/power_supply/BAT${bn}/status`
 if [ $s == 'Full' ]; then
   r='${color medium spring green}Full'
+elif [ $s == 'Charging' ]; then
+  r='${color yellow}Ch'
 else
-  if [ $s == 'Charging' ]; then
-    r='${color yellow}Ch'
-  else
-    r='${color orange1}Dis'
-  fi
+  r='${color orange1}Dis'
 fi
 echo "${r} ${c}%"
